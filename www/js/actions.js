@@ -17,11 +17,13 @@ $(document).ready(function(){
 
     /* WIDGETS (DEMO)*/
     $("#sparkling").on("click",function(){
-        window.location.href="https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev";
-    });  
-    $("#ringpullcrown").on("click",function(){
-        window.location.href="https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/RingPullCrown";
+        window.open("https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev", "_system");
     });
+    $("#ringpullcrown").on("click",function(){
+        window.open("https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/RingPullCrown", "_system");
+    });
+
+
 
 
     $(".widget-remove").on("click",function(){
