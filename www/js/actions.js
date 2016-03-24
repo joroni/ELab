@@ -17,10 +17,10 @@ $(document).ready(function(){
 
     /* WIDGETS (DEMO)*/
     $("#sparkling").on("click",function(){
-        window.location="https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev";
-    });
+        window.location.href="https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev";
+    });  
     $("#ringpullcrown").on("click",function(){
-        window.location="https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/RingPullCrown";
+        window.location.href="https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/RingPullCrown";
     });
 
 
