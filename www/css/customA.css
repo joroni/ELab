@@ -1,0 +1,602 @@
+﻿@charset "UTF-8";
+
+
+.page-content {
+  background: #f5f5f5 url("../img/watermark.png") no-repeat !important;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.widget.widget-default {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;
+}
+
+.ms-cui-tabContainer {
+    height: 91px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1 !important;
+}
+	.x-navigation-open {
+    background: #33414e none repeat scroll 0 0 !important;
+  /*  position:fixed !important;*/
+    }
+
+
+.ms-srch-sb-border {
+    border: 1px solid #ababab;
+    height: 30px;
+    max-width: 100%;
+    min-width: 100%;
+}
+.widget .widget-int {
+    font-family: arial;
+    font-size: 24px !important;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#globalNavBox, .ms-clientcontrol-chromeheader {
+    background-color: #ddd !important;
+    float: right;
+    width: 100%;
+}
+
+.s4-ribbonrow {
+	position:fixed;
+	top:50px;
+	}
+#s4-ribbonrow {
+    position: relative;
+    top: -5px;
+}
+#Refinement {
+	padding:20px;
+	background:#dedede;
+}
+#RibbonContainer.loaded {
+	display:block;
+	background:#fff;
+}
+.contextMenuPopup {
+    background-color: #fff;
+    z-index:2000000 !important;
+}
+
+#suiteBarTop {
+    float: right;
+    height: 55px !important;
+    margin-top: 0 !important;
+    position: relative;
+}
+
+.x-navigation.x-navigation-horizontal {
+    background: transparent repeat scroll 0 0 !important;
+    display: inline-block;
+    /*height: 150px !important;*/
+    height:150px !important;
+    position: relative !important;
+    overflow:visible;
+}
+
+a.x-navigation-minimize {
+    border: 0px solid;
+    color: rgba(255,255,255, 0.7);
+    font-size: 2em;
+    padding: 5px 10px;
+    position: absolute;
+    width: 50px;
+    z-index:2000000;
+}
+.o365cs-base.o365cst .o365cs-topnavLinkBackground-2 {
+    background-color: none !important;
+}
+
+.o365cs-nav-header16 .o365cs-nav-leftAlign {
+    display: table-cell;
+    left: 0px;
+    position: relative !important;
+    vertical-align: middle;
+}
+
+#suiteBarDelta {
+
+background-color: #9a1919;
+}
+#sideNavBox {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+#ms-designer-ribbon {
+	min-width:100%;
+	max-width:100%;
+}
+
+.theRibbon {
+    margin-left: 0px;
+    padding: 0 !important;
+    position: relative;
+    top: 0px !important;
+}
+
+.o365cs-me-tile-nophoto {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: 700;
+    margin-top: -7px;
+    text-transform: uppercase;
+}
+
+.x-navigation.x-navigation-horizontal li.xn-icon-button{
+	float:left !important;
+	width:50px !important;
+}
+
+
+.x-navigation.x-navigation-horizontal li.ribbonBarHolder{
+	float:right !important;
+	width:95% !important;
+}
+
+.page-container .page-content .page-content-wrap {
+    float: left;
+   /* margin-top: 100px !important; */
+    width: 100%;
+    background-color:transparent !important;
+}
+
+.topbar > ul ul ul li, .sidebar > ul ul ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#attachmentsOnClient div.form-control {
+    padding: 1px 12px !important;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+
+html.ms-dialog.ms-dialog-nr nav.navbar.navbar-inverse.navbar-fixed-top {
+	display:none !important;
+}
+
+body, .ms-core-defaultFont, #pageStatusBar, .ms-status-msg, .js-callout-body {
+	font-family: "Open Sans", sans-serif !important;
+	font-size: 13px;
+}
+.ms-toolbar, .ms-toolbar table td {
+	display: inline-block;
+}
+.main {
+	padding: 0 10px !important;
+}
+.multi.form-control {
+	font-size: 95% !important;
+	line-height: 1em;
+	min-height: 150px !important;
+	overflow: auto !important;
+	padding: 0 15px !important;
+}
+.ms-long {
+	width: auto !important;
+	max-width: 100% !important;
+	min-width: 100% !important;
+}
+.nav-sidebar {
+	margin-bottom: 20px;
+	margin-left: -20px;
+	margin-right: 0px !important;
+}
+.main.col-md-offset-3 {
+	margin-left: 16.663% !important;
+}
+.main.col-md-9 {
+	width: 83.337% !important;
+}
+#suiteLinksBox {
+	display: none !important;
+}
+#navbar ul.navbar-right {
+	margin-top: 10px;
+}
+#welcomeMenuBox {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-transform: uppercase !important;
+    vertical-align: top;
+}
+#tool-bar {
+	position: fixed;
+	z-index: 20000000;
+	top: 21px;
+	width: 75%;
+	right: 0px;
+}
+/*#s4-workspace {
+overflow:hidden;
+}*/
+#main-container {
+	position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;
+	top: 180px;
+}
+#ms-help > a > span {
+	border: 0px solid #fff;
+	height: 30px !important;
+	width: 30px !important;
+}
+/*
+div#suiteBarButtons span#ms-help a#ctl00_ctl59_TopHelpLink span {
+	display: inline-block;
+	height: 30px !important;
+	overflow: hidden !important;
+	padding: 0px !important;
+	width: 28px !important;
+}*/
+.ms-siteactions-normal {
+	border-right: 0px solid transparent;
+	display: inline-block;
+	padding: 8px !important;
+}
+.ms-siteactions-root > span > a.ms-core-menu-root {
+	border: 0px solid #fff;
+	display: inline-block;
+	height: 30px;
+	overflow: hidden;
+	padding: 0 7px 6px 0 !important;
+	width: 30px;
+}
+.ms-core-brandingText {
+	display: none;
+}
+#navbar {
+	position: fixed;
+	right: 0px;
+	top: 0px;
+}
+.sidebar {
+	display: block;
+	background-color:#33414e !important;
+}
+body {
+	font-family: "Open Sans", sans-serif; /* font-family: "corbel", arial, sans-serif;*/;
+	color: #444 !important;
+}
+.navbar-left {
+    float: left !important;
+    margin-right: 0;
+    display:none;
+}
+.o365cs-base.o365cst.o365cs-topnavBGColor-2 {
+	background-color: #9a1919 !important;
+}
+::-webkit-scrollbar {
+	display: none !important;
+}
+.ms-welcome-hover, .ms-siteactions-hover {
+	/* [ReplaceColor(themeColor:"BackgroundOverlay",opacity:"1")] */
+background-color: rgba(255,255,255,0.3) !important; /* [ReplaceColor(themeColor:"DialogBorder")] */;
+	border-right-color: #d1d1d1;
+}
+.ms-core-suiteLink-a:hover {
+	text-decoration: none; /* [ReplaceColor(themeColor:"SuiteBarHoverBackground")] */;
+	background-color: rgba(255,255,255,0.3) !important;
+	color: #fff !important;
+}
+.ms-core-needIEFilter .ms-core-suiteLink-a:hover {
+	color: #fff !important; /* [ReplaceColor(themeColor:"SuiteBarHoverBackground",opacity:"1")] */;
+	background-color: rgba(255,255,255,0.3) !important;
+}
+ul#navbarHolder li {
+	list-style-type: none;
+	float: left;
+}
+ul ul li {
+	list-style: none;
+}
+button#hamBrgr {
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2000000;
+	border:1px solid #e00d02;
+}
+
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color:#e00d02;
+}
+
+.navbar-header {
+	float: left;
+	left: 0;
+	text-align: center;
+	position: absolute;
+	min-width: 100%;
+	max-width: 100%;
+}
+.navbar-ribbon {
+	border: 0px solid rgba(255,255,255,0.5);
+	max-width: 100%;
+	right: 0;
+	top: 0;
+}
+.row {
+	line-height: 1em;
+	min-height: 3.2em;
+	padding: 0 10px;
+	position: relative;
+	margin-left: -15px !important;
+	margin-right: -15px !important;
+}
+div.form-control.input-side span input#ctl00_ctl43_g_21dbf6bb_62bf_4692_ab75_73ff480bc082_ff361_ctl00_ctl00_TextField.ms-long.ms-spellcheck-true {
+	max-width: 250px !important;
+}
+hr {
+	border-top: 1px solid #444 !important;
+	border-width: 1px 0 0;
+}
+ table#testConduct.table.table-bordered.table-striped.table-actions tbody tr td span select.ms-RadioText,
+#testConduct input, #testConduct select {
+	background-color: #f9f9f9 !important;
+	border: 1px solid silver !important;
+	border-radius: 2px;
+	max-width: 100%;
+	min-width: 100%;
+	padding:5px 10px !important;
+	min-height:30px !important;
+}
+input[type="password"], input[type="text"], input[type="file"], select, textarea, .sp-peoplepicker-topLevel, .sp-peoplepicker-topLevelDisabled, .sp-peoplepicker-autoFillContainer, .ms-inputBox {
+	background-color: rgba(255,255,255,0.0) !important;
+	border: 1px solid #ababab;
+	color: #444;
+}
+
+.col-md-4 {
+	width: 33% !important;
+}
+#attachmentsOnClient {
+	height:auto !important;
+	display:inline-block;
+}
+.requiredElement {
+	color: #b64645;
+}
+/*.form-control {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid #d5d5d5;
+    border-image: none;
+    border-left: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    color: #420a0a;
+    font-size: 12px !important;
+    height: 32px !important;
+
+}*/
+
+.ms-dlgTitleBtns {
+    float: right;
+    height: 30px;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+}
+.control-label {
+	color: #444 !important;
+}
+html {
+	-ms-overflow-style: none !important;
+}
+.navbar-inverse .navbar-brand {
+	color: #9d9d9d;
+	padding: 0;
+}
+.sidebar {
+	background: #33414e none repeat scroll 0 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	padding-top: 0 !important;
+	border-right: none !important;
+	/*margin-left:-10px;
+	margin-right:-10px;*/
+}
+/*.col-md-offset-2 {
+    margin-left: 16.333% !important;
+}
+.col-md-10 {
+    width: 83.667% !important;
+}*/
+
+.navbar {
+	background-color: #9a1919 !important;
+	margin-bottom: 0 !important;
+	height: 51px;
+}
+.navbar-right {
+	display: block !important;
+}
+.panel-heading {
+	background-color: #9a1919 !important;
+	color: #fff !important;
+}
+.panel-heading.panel-collapse ul.panel-controls {
+	display: none;
+}
+.panel-heading:hover {
+	cursor: pointer !important;
+}
+.panel-heading .panel-title, a.panel-collapse {
+	color: #fff !important;
+	text-transform: uppercase;
+}
+/*ul.nav-sidebar, ul.ms-core-listMenu-root {
+	margin-bottom: 0px;
+	margin-left: -40px;
+}*/
+ul.nav-sidebar, ul.ms-core-listMenu-root {
+    margin-bottom: 0;
+    margin-left: -20px;
+    margin-right: 0px;
+}
+.nav-sidebar li, .ms-core-listMenu-root li {
+	padding: 0px;
+}
+.nav-sidebar li a, .ms-core-listMenu-root li a, .ms-core-listMenu-verticalBox > .ms-core-listMenu-item, .ms-core-listMenu-verticalBox li.static > .ms-core-listMenu-item, .x-navigation li a span.xn-text  {
+	  color: #f5f5f3;
+    font-family: "Open Sans",sans-serif !important;
+    font-weight: 700;
+    padding: 20px !important;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+.nav-sidebar li a:active, .nav-sidebar li a:hover, .nav-sidebar li a:focus {
+	/*  background: #565249;
+  border-color: #565249;*/
+  background-color: #2f3c48;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
+	background-color: #2f3c48 !important;
+	color: #f2f2f2;
+}
+ul#zz13_RootAspMenu li, .sidebar > ul li {
+	border-bottom: 1px solid #2f3c48 !important;
+	background-color: #33414e !important;
+}
+
+.topbar {
+	position: fixed;
+	top:51px;
+	z-index:19000;
+	width:100%;
+	padding-left:40px;
+	margin-left:-20px;
+}
+ .topbar > ul li {
+	border-bottom: 1px solid #2f3c48 !important;
+	border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+
+}
+
+
+
+input, select, textarea {
+	max-width: 100% !important;
+	min-width: 100% !important;
+	max-height: 100% !important;
+	min-height: 100% !important;
+	border: none !important;
+}
+.form-control {
+	padding: 0px;
+	border-radius: 0px !important;
+	height: 34px !important;
+}
+.ms-inputuserfield {
+	padding: 0 !important;
+	border: 0px !important;
+	background: none !important;
+}
+.container-fliud {
+	background: #f5f5f5 url('../img/bg.png') left top !important;
+	margin-left: 220px;
+	min-height: 100%;
+	position: relative;
+}
+table#testConduct.table.table-bordered.table-striped {
+	color: #444 !important;
+}
+.contentShow {
+	background-color: #fff !important;
+	border-radius: 0;
+	margin-bottom: 0px;
+	max-height: 100%;
+	min-height: 200px;
+	padding-bottom: 30px !important;
+}
+#pageStatusBar {
+	display: none !important;
+}
+.ms-core-brandingText {
+	position: relative;
+}
+.ms-core-brandingText::after {
+	background: #9a1919 none repeat scroll 0 0;
+	bottom: 0;
+	content: " The Coca-Cola Company";
+	left: 0;
+	padding: 12px;
+	position: absolute;
+	right: 0;
+	top: -11px !important;
+}
+.ms-core-brandingText {
+	margin-left: 0px !important;
+}
+.ms-welcome-root > a.ms-core-menu-root, .ms-signInLink {
+	color: white!important;
+}
+.ms-cui-topBar2 {
+    background-color: #888 !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    width: 100%;
+}
+#suiteBar {
+width:100% !important;
+height:51px;
+background-color:#9a1919;
+}
+#suiteBarLeft, #suiteBarRight {
+	background-color: #9a1919 !important;
+}
+
+#suiteBarRight {
+	float:right;
+}
+
+#suiteBarLeft {
+	float:left;
+}
+
+.ms-core-listMenu-selected:link, .ms-core-listMenu-selected:visited, .ms-core-listMenu-selected {
+	background-color: rgba(239, 239, 239, 0.4) !important;
+}
+input[type="button"], input[type="reset"], input[type="submit"], button {
+	background-color: #9a1919 !important;
+	border: 1px solid #9a1919 !important;
+	border-radius: 0px !important;
+	color: #eee !important;
+	font-family: "Open Sans",sans-serif !important;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 0 !important;
+	min-width: 6em;
+	padding: 8px 18px !important;
+	text-transform: uppercase;
+}
+input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, button:hover {
+	background-color: #9a1919 !important;
+	border-color: #9a1919 !important;
+	cursor: pointer !important;
+}
+.btn-danger, #btnSelectCountry {
+	color: #eee !important;
+	font-size: 12px !important;
+	margin-left: 0;
+	min-width: 6em;
+	padding: 4px 10px !important;
+	background-color: #9a1919;
+	border-color: #9a1919 !important;
+	text-transform: uppercase;
+}
+.borderLine {
+	border-bottom: 1px dashed rgba (0, 0, 0, 0.3) !important;
+	margin: 10px;
+}

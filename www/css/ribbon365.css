@@ -1,0 +1,149 @@
+*, *:before, *:after {
+
+   -webkit-box-sizing: content-box; /*border-box causes many issues with SP*/
+
+   -moz-box-sizing: content-box; /*border-box causes many issues with SP*/
+
+   box-sizing: content-box; /*border-box causes many issues with SP*/
+
+}
+
+* [class^="span"], * [class^="span"]:before, , * [class^="span"]:after {
+
+   -webkit-box-sizing: border-box; /*re-enable border-box for framework spans*/
+
+   -moz-box-sizing: border-box; /*re-enable border-box for framework spans*/
+
+   box-sizing: border-box; /*re-enable border-box for framework spans*/
+
+}
+
+img {
+
+   max-width: none;
+
+   width: auto;
+
+}
+
+* [class^="span"] img {
+
+   max-width: 100%; /*for images inside span grid*/
+
+}
+
+#scriptWPQ2 img, img.ms-webpart-menuArrowImg, #applist img {
+
+   /*within a span may still need to have width of image not 100% for SP2013 OOTB features/imges*/
+
+   width: auto;
+
+   max-width: none;
+
+}
+
+.ms-siteactions-imgspan {
+
+   float: none;
+
+   margin: 0px;
+
+}
+
+
+
+
+
+/*Custom Styles to Fix Ribbon Layout Issues*/
+
+
+
+#s4-ribbonrow [class*="span"] {
+
+   float: none;
+
+   margin-left: 0px;
+
+   line-height: 1.2em;
+
+}
+
+input.ms-cui-cb-input {
+
+   height: 21px; /*14 was from first try*/
+
+   padding: 3px 7px 2px;
+
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+   header > .container-fluid, nav#topnav > .container-fluid, footer > .container-fluid,
+
+   .footer-bottom  > .container-fluid  {
+
+      max-width: 1160px;
+
+      margin-left: auto;
+
+      margin-right: auto;
+
+   }
+
+   #main {
+
+      max-width: 1200px;
+
+      margin-left: auto;
+
+      margin-right: auto;
+
+   }
+
+}
+
+
+
+/*Fix Absolutely Positioned divs in a Grid Framework*/
+
+
+
+header > .container-fluid {
+
+   position: relative;
+
+}
+
+header .searchbox {
+
+   bottom: auto;
+
+   right: auto;
+
+   position: relative;
+
+   float: right;
+
+   margin-top: 60px;
+
+   text-align: left;
+
+   width: 260px;
+
+}
+
+header #searchInputBox input[type=text]{
+
+   box-shadow: none;
+
+   transition: none;
+
+   -moz-transition: none;
+
+   -webkit-transition: none;
+
+}

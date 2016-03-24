@@ -1,0 +1,35 @@
+/* Hide the left Suite Bar and right ribbon areas */
+#suiteBarLeft {
+    display: none;
+}
+#RibbonContainer-TabRowRight {
+    display: none !important; /* !important needed to override SharePoint inline style */
+}
+
+/* Float the Suite Bar to remove from document flow and allow ribbon to move up */
+#suiteBar {
+    float: right;
+    width: auto;
+}
+
+/* Alter stacking order and set positioning for ribbon */
+#s4-ribbonrow {
+    z-index: -1;  /* Allows Suite Bar to show on top of Ribbon */
+    position: static;  /* Secret sauce - needed to maintain ribbon functionality */
+}
+
+
+
+<![if lte IE 8]>
+<style type="text/css">
+#s4-ribbonrow {
+    float: left;
+    width: auto;
+}
+</style>
+<![endif]-->#s4-ribbonrow {
+    z-index: -1; /* Allows Suite Bar to show on top of Ribbon */
+    position: static;  /* Secret sauce - needed to maintain ribbon functionality */
+    float: left; /* Needed for IE8 and older */
+    width: auto;  /* Needed for IE8 and older */
+}
