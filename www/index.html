@@ -13,6 +13,8 @@
         <!-- CSS INCLUDE -->
         <link rel="stylesheet" type="text/css" id="theme" href="css/theme-dark-red.css"/>
         <!--<link rel="stylesheet" type="text/css" id="theme" href="css/core15.css"/>-->
+        <script src="phonegap.js"></script>
+        <script src="cordova.js"></script>
         <!-- EOF CSS INCLUDE -->
     </head>
     <body>
@@ -31,6 +33,12 @@
                     <li class="xn-title">Navigation</li>
                     <li class="active">
                         <a href="index.html"><span class="fa fa-desktop"></span> <span class="xn-text">Document Generator</span></a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="openDeviceBrowser ('http://www.google.de/')"><span class="xn-text">Link</span></a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="openDeviceBrowser ('https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/')"><span class="xn-text">Dashboard</span></a>
                     </li>
 
                 </ul>
@@ -163,7 +171,8 @@
 
                         </div>
                         <div class="col-md-3">
-                            <a href="#" onclick="openDeviceBrowser ('/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleHotFill')" class="tile-primary">
+
+                            <a href="#" onclick="openDeviceBrowser ('https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleHotFill')" class="tile-primary">
                              <!--<a href="/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleHotFill" class="tile-primary">-->
                             <div class="widget widget-default widget-item-icon">
                                 <div class="widget-item-left">
@@ -334,7 +343,7 @@
 
     <!-- START SCRIPTS -->
         <!-- START PLUGINS -->
-        <script src="cordova.js"></script>
+
         <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
         <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>
