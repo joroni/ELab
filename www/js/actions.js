@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
     /* PROGGRESS START */
     $.mpb("show",{value: [0,50],speed: 5});
     /* END PROGGRESS START */
@@ -15,10 +16,15 @@ $(document).ready(function(){
         e.stopPropagation();
     });
 
+    function openDeviceBrowser (externalLinkToOpen){	window.open(externalLinkToOpen, '_system', 'location=no');}
+
     /* WIDGETS (DEMO)*/
-    $("#sparkling").on("click",function(){
-        window.open("https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev", "_system");
-    });
+    $("#sparkling").onclick="openDeviceBrowser ('/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev')";
+    //$("#sparkling").on("click",function(){
+      //var onInApp = window.open('https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev', '_blank', 'location=no,hidden=yes,closebuttoncaption=Done,toolbar=no');
+      //  window.open("https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/PlasticBottleSparkBev", "_system");
+
+    //});
     $("#ringpullcrown").on("click",function(){
         window.open("https://cocacola.sharepoint.com/sites/EngineeringLaboratoryMainSite/Live/RingPullCrown", "_system");
     });
